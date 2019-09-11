@@ -3,15 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.klniu.com/posts/2019-08/</loc>
+    <lastmod>2019-08-28T09:34:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.klniu.com/posts/</loc>
+    <lastmod>2019-08-28T09:34:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.klniu.com/</loc>
+    <lastmod>2019-08-28T09:34:27+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.klniu.com/categories/</loc>
   </url>
   
   <url>
     <loc>https://blog.klniu.com/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.klniu.com/</loc>
   </url>
   
 </urlset>
