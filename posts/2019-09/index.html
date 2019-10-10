@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.57.2" />
+    <meta name="generator" content="Hugo 0.58.2" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -89,6 +89,38 @@
 
 <pre><code class="language-java">@RequestParam @DateTimeFormat(pattern = &quot;yyyy-MM-dd&quot;) LocalDate date,
 </code></pre>
+
+<h2 id="activiti-教程">Activiti 教程</h2>
+
+<ul>
+<li><a href="http://ypk1226.com/2019/02/24/workflow/activiti-1/">工作流引擎Activiti快速入门</a></li>
+<li><a href="https://www.jianshu.com/p/7fef2679a26b">最简单的Activiti入门教程</a></li>
+<li><a href="https://www.jianshu.com/p/aa09fe0594ef">Activiti就是这么简单</a></li>
+<li><a href="https://tomoya92.github.io/2019/04/24/activiti-env/">Activiti6.0教程</a></li>
+<li><a href="https://juejin.im/post/5a4064365188252b145b4560">Activiti实战</a></li>
+</ul>
+
+<h2 id="office365与visio独立版共存">office365与visio独立版共存</h2>
+
+<ul>
+<li><a href="https://docs.microsoft.com/zh-cn/DeployOffice/office2019/deploy">部署 Office 2019（面向 IT 专业人员）</a></li>
+</ul>
+
+<h2 id="java">JAVA</h2>
+
+<h3 id="javax-management-instancenotfoundexception-org-springframework-boot-type-admin-name-springapplication">javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication</h3>
+
+<p>参考：<a href="https://stackoverflow.com/questions/50436108/javax-management-instancenotfoundexception-org-springframework-boottype-admin">https://stackoverflow.com/questions/50436108/javax-management-instancenotfoundexception-org-springframework-boottype-admin</a></p>
+
+<p>I had the same issue with IDEA IntelliJ. The problem was IntelliJ&rsquo;s default server configurations. You just need to remove the &lsquo;Enable launch optimization&rsquo; and &lsquo;Enable JMX agent&rsquo; checkboxes, then it works!</p>
+
+<p>Steps:</p>
+
+<ol>
+<li>Edit Configurations</li>
+<li>choose your project</li>
+<li>remove the &lsquo;Enable launch optimization&rsquo; and &lsquo;Enable JMX agent&rsquo; checkboxes</li>
+</ol>
 
                         </div>
 
