@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.58.2" />
+    <meta name="generator" content="Hugo 0.59.1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -89,6 +89,38 @@
 
 <ul>
 <li><a href="https://segmentfault.com/a/1190000000660671">activiti 学习（ 三 ） 之 流程启动者</a>：identityService.setAuthenticatedUserId(userId)的作用</li>
+</ul>
+
+<p>activiti 6.0以下，适用于spring boot 1.x，如果用2.0，会出现requestMappingHandlerMapping无法配置的错误，需要将SecurityAutoConfiguration排除掉，参见<a href="https://stackoverflow.com/questions/51097584/activiti6-use-spring-boot-starter-web-meet-requestmappinghandlermapping-error">Activiti6 use spring-boot-starter-web meet requestMappingHandlerMapping error</a></p>
+
+<ul>
+<li><a href="https://www.jianshu.com/p/3f976a47114c">Activiti实现自定义流程图颜色</a></li>
+</ul>
+
+<h2 id="音频切割">音频切割</h2>
+
+<pre><code>ffmpeg -i input.mp3 -ss hh:mm:ss -t hh:mm:ss -acodec copy output.mp3
+</code></pre>
+
+<p>参数说明：
+* -ss : 指定从那裡开始
+* -t : 指定到那裡结束
+* -acodec copy : 编码格式和来源档桉相同（就是mp3）</p>
+
+<h2 id="spring">Spring</h2>
+
+<p><a href="https://blog.csdn.net/qq_32566003/article/details/90897682">cannot be cast to org.springframework.web.multipart.MultipartHttpServletRequest</a></p>
+
+<h2 id="分库分表">分库分表</h2>
+
+<ul>
+<li><a href="https://www.cnblogs.com/warehouse/p/10806042.html">Sharding-JDBC（三）3.1.0版本实践</a></li>
+</ul>
+
+<h2 id="vue-refs的坑">vue refs的坑</h2>
+
+<ul>
+<li><a href="https://segmentfault.com/q/1010000009349802">自定义组件的v-for中，绑定refs属性，获取不到对应的元素</a></li>
 </ul>
 
                         </div>

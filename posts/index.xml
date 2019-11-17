@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 勿慢牛的博客</title>
@@ -17,7 +17,10 @@
       <pubDate>Thu, 10 Oct 2019 14:05:55 +0800</pubDate>
       
       <guid>https://blog.klniu.com/posts/2019-10/</guid>
-      <description> activiti  activiti 学习（ 三 ） 之 流程启动者：identityService.setAuthenticatedUserId(userId)的作用  </description>
+      <description> activiti  activiti 学习（ 三 ） 之 流程启动者：identityService.setAuthenticatedUserId(userId)的作用  activiti 6.0以下，适用于spring boot 1.x，如果用2.0，会出现requestMappingHandlerMapping无法配置的错误，需要将SecurityAutoConfiguration排除掉，参见Activiti6 use spring-boot-starter-web meet requestMappingHandlerMapping error
+ Activiti实现自定义流程图颜色  音频切割 ffmpeg -i input.mp3 -ss hh:mm:ss -t hh:mm:ss -acodec copy output.mp3  参数说明： * -ss : 指定从那裡开始 * -t : 指定到那裡结束 * -acodec copy : 编码格式和来源档桉相同（就是mp3）
+Spring cannot be cast to org.springframework.web.multipart.MultipartHttpServletRequest
+分库分表  Sharding-JDBC（三）3.1.0版本实践  vue refs的坑  自定义组件的v-for中，绑定refs属性，获取不到对应的元素  </description>
     </item>
     
     <item>
